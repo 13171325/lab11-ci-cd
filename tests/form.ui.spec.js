@@ -68,6 +68,6 @@ describe('Форма регистрации на турнир', () => {
 
   it('кнопка отправки имеет ожидаемый текст', async () => {
     const submitBtn = await driver.findElement(By.id('submit-btn'))
-    expect(await submitBtn.getText()).toBe('Зарегистрироваться')
+    expect(await submitBtn.getText()).toBe('Отправить заявку')
   })
 })
