@@ -1,0 +1,15 @@
+{
+  "name": "lab11-ci-cd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторная 11: CI/CD с GitHub Actions и Selenium UI-тестами",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "npx serve public -l 3000"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.27.0",
+    "serve": "^14.2.4"
+  }
+}

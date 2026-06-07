@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация на турнир</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1 id="page-title">Регистрация на турнир</h1>
+    <p class="subtitle">Заполните форму, чтобы участвовать в футбольном турнире</p>
+
+    <form id="registration-form" novalidate>
+      <label for="name">Имя участника</label>
+      <input id="name" name="name" type="text" placeholder="Иван Иванов" autocomplete="name">
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="ivan@example.com" autocomplete="email">
+
+      <button id="submit-btn" type="submit">Зарегистрироваться</button>
+    </form>
+
+    <p id="message" class="message" role="alert" hidden></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
